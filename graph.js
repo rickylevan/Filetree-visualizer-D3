@@ -35,8 +35,9 @@ var path = svg.selectAll("path")
 .enter().append("path")
 .attr("fill", function(d, i) { return color(i); })
 .attr("d", arc);
+
 // get a reference to our SVG object and add the SVG NS
 var svgGraph = d3.select('svg')
-.attr('xmlns', 'http://www.w3.org/2000/svg');
+	.attr('xmlns', 'http://www.w3.org/2000/svg');
 var svgXML = (new xmldom.XMLSerializer()).serializeToString(svgGraph[0][0]);
 fs.writeFile('graph.svg', svgXML);
