@@ -1,0 +1,2 @@
+# Directory structure -> JSON w/ node
+http://stackoverflow.com/questions/11194287/convert-a-directory-structure-in-the-filesystem-to-json-with-node-js

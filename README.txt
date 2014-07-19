@@ -10,3 +10,13 @@ Game plan:
 1. Figure out how D3 dendrograms work. 
 2. See how to automate node to run D3 from command line.
 3. Figure out a Python driver to extract required tree structure.
+
+
+
+
+DONE:
+1. Figured out how to render svg's from node on the command line.
+
+
+TODO:
+--> svg tags are unfortunately capitalized. They need to be lower case
