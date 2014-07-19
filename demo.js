@@ -60,7 +60,8 @@ fs.readFile('resources/d/flare.json', 'utf8', function (err,data) {
       .style("text-anchor", function(d) { return d.children ? "end" : "start"; })
 	  .style("font-family","sans-serif")
 	  .style("font-size","10px")
-	  .style("stroke","black")
+	  .style("stroke","none")
+	  .style("fill","black")
 	  .style("font-weight","400")
       .text(function(d) { return d.name; });
 
